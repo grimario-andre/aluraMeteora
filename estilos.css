@@ -1,0 +1,69 @@
+:root {
+    --background-color: #C9D1D7;
+    --btn-color: #9353FF;
+    --icon-color: #DAFF01;
+}
+
+.bg-facilidades {
+    background-color: var(--background-color);
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.container-facilidades {
+    width: 250px;
+}
+
+.div-novidades {
+    width: 290px;
+}
+
+.icon-facilidades {
+    color: var(--icon-color);
+}
+
+.btn__type-1 {
+    background-color: var(--btn-color);
+    color: white;
+}
+
+.posicao {
+    top: 40%;
+}
+
+@media(max-width: 767px) {
+    .posicao {
+        top: 50%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .container-facilidades {
+        width: 150px;
+    }
+
+    .div-novidades {
+        width: 480px;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .div-novidades {
+        width: 720px;
+    }
+}
+
+
+@media screen and (min-width: 425px) {
+    .container-facilidades {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .container-facilidades {
+        width: 150px;
+    }
+}
